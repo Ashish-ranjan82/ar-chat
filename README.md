@@ -54,5 +54,25 @@ To run the application locally:
 
 1. **Clone the repository:**
    ```sh
-   git clone https://github.com/yourusername/A-chat.git
+   git clone [https://github.com/yourusername/A-chat.git](https://github.com/Ashish-ranjan82/ar-chat)
    cd A-chat
+  2**Install dependencies:
+   npm install
+   cd client
+   npm install
+   3** Start the Server
+   cd ..
+  npm start
+  4:**Start the frontend:
+  cd client
+  npm start
+  #Future Enhancements
+File Sharing: Adding functionality to share files and media within the chat.
+Emoji Support: Integrating emoji support for more expressive communication.
+Group Chats: Enabling group chat functionalities for larger discussions.
+
+  
+
+   
+
+   
