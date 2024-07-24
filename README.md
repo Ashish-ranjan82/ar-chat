@@ -6,7 +6,6 @@ A-chat is an advanced real-time chat application designed for seamless communica
 
 - **Real-Time Messaging:** Instant message delivery and reception using Socket.io for real-time communication.
 - **Responsive Design:** A fluid and intuitive interface that adapts to different screen sizes and devices, ensuring a consistent user experience across desktops, tablets, and mobile devices.
-
 - **Message Deletion:** Capability to delete messages for 'me' (locally) and 'everyone' (globally) for enhanced control over conversations.
 - **User Management:** Easy-to-use features for users joining and leaving chats, with informative system messages to keep everyone in the loop.
 
@@ -27,10 +26,10 @@ A-chat is an advanced real-time chat application designed for seamless communica
 ## Deployment
 
 - **Server:** Deployed on Vercel, ensuring a reliable and scalable backend infrastructure.
-  - **Server Link:** [[Server Deployment Link](https://ar-chat-zeta.vercel.app/)](#)
+  - **Server Link:** [Server Deployment Link](https://ar-chat-zeta.vercel.app/)
 
 - **Frontend:** Deployed on Netlify for fast, secure, and efficient delivery of web assets.
-  - **Frontend Link:** [[Frontend Deployment Link](https://demo-c-ar-chat.netlify.app)](#)
+  - **Frontend Link:** [Frontend Deployment Link](https://demo-c-ar-chat.netlify.app)
 
 ## How to Use
 
@@ -54,19 +53,28 @@ To run the application locally:
 
 1. **Clone the repository:**
    ```sh
-   git clone [https://github.com/yourusername/A-chat.git](https://github.com/Ashish-ranjan82/ar-chat)
+   git clone https://github.com/Ashish-ranjan82/ar-chat.git
    cd A-chat
-  2**Install dependencies:
-   npm install
-   cd client
-   npm install
-   3** Start the Server
-   cd ..
-  npm start
-  4:**Start the frontend:
-  cd client
-  npm start
-  #Future Enhancements
+Install dependencies:
+
+sh
+Copy code
+npm install
+cd client
+npm install
+Start the server:
+
+sh
+Copy code
+cd ..
+npm start
+Start the frontend:
+
+sh
+Copy code
+cd client
+npm start
+Future Enhancements
 File Sharing: Adding functionality to share files and media within the chat.
 Emoji Support: Integrating emoji support for more expressive communication.
 Group Chats: Enabling group chat functionalities for larger discussions.
